@@ -37,7 +37,7 @@ form{
     flex-direction: column;
     gap: 30px;
 }
-           
+
 @media (max-width: 600px){
     nav {
         flex-direction:column;
@@ -86,7 +86,7 @@ nav a:hover {
     color: pink;
 }
 button{
-    transition: background-color 1.0s ease;
+    transition: background-color 0.5s ease;
     background-color: black;
     color: white;
     border-radius: 10px;
