@@ -37,6 +37,12 @@ form{
     flex-direction: column;
     gap: 30px;
 }
+        h2 {
+            font-size: 100px;
+            color: blue;
+
+            
+        }
 @media (max-width: 600px){
     nav {
         flex-direction:column;
@@ -67,4 +73,3 @@ main section {
     }
 
 }
-
