@@ -1,16 +1,38 @@
 body {
-    background-color: rgb(211, 127, 211);
+    text-align: center;
 }
+ul {
+    list-style-type: none;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+nav ul{
+    display: flex;
+    gap: 20px;
+}
+main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 50px;
+}
+main section {
+    flex: 1;
+    min-width: 280px;
+    border: 2px solid black;
+    padding: 20px;
 
-h2 {
-    color: rgb(156, 13, 13);
-    font-family: "Times New Roman", Times, serif;
-    font-size: x-large;
 }
-h1 {
-    color: rgb(235, 234, 236);
-    font-family: "Times New Roman", Times, serif;;
-    font-style: italic;
-    background-color: ;
- 
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+#services {
+    padding: 0 50px;
 }
