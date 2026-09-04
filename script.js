@@ -13,3 +13,11 @@ console.log(`Address: ${myaddress}`);
 
 console.log(67);
 
+function greet(greeting, names = []) {
+    if (Array.isArray(names)) {
+        names = names.join(", ");
+    }
+    return`${greeting}, sa enyu ${names},`;
+}
+
+console.log(greet("Mayung aga" , ["Cuennie", " Bai", " Soy", " Tol", " Erp"]));
